@@ -38,7 +38,7 @@ async def rename_start(client, message):
     filesize = humanize.naturalsize(file.file_size)
 
     if not Config.STRING_SESSION:
-        if file.file_size > 5000 * 1024 * 1024 * 1024:
+        if file.file_size > 5000 * 1024 * 1024:
             return await message.reply_text("Sᴏʀʀy Bʀᴏ Tʜɪꜱ Bᴏᴛ Iꜱ Dᴏᴇꜱɴ'ᴛ Sᴜᴩᴩᴏʀᴛ Uᴩʟᴏᴀᴅɪɴɢ Fɪʟᴇꜱ Bɪɢɢᴇʀ Tʜᴀɴ 2Gʙ")
 
     try:
