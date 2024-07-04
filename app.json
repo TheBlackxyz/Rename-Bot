@@ -1,9 +1,9 @@
 {
-  "name": "TheBlackXYZRenameBot",
+  "name": "Rename-Bot",
   "description": "Telegram File Renaming Bot With Metadata Feature ",
   "logo": "",
   "keywords": [
-    "TheBlackXYZRenameBot",
+    "Rename-Bot",
     "Mongo DB",
     "Telegram",
     "Bot",
@@ -14,7 +14,7 @@
     "Snowball",
     "Snowball-01"
   ],
-  "repository": "https://github.com/TheBlackxyz/TheBlackXYZRenameBot",
+  "repository": "https://github.com/TheBlackxyz/Rename-Bot",
   "success_url": "",
   "stack": "container",
   "env": {
