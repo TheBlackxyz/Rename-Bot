@@ -163,7 +163,7 @@ async def doc(bot, update):
 
     type = update.data.split("_")[1]
 
-    if media.file_size > 5000 * 1024 * 1024:
+    if media.file_size > 2000 * 1024 * 1024:
         try:
             if type == "document":
 
